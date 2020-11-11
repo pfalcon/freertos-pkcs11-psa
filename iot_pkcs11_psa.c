@@ -2150,7 +2150,7 @@ CK_DECLARE_FUNCTION( CK_RV, C_FindObjectsInit )( CK_SESSION_HANDLE xSession,
  * for more information.
  */
 static CK_RV  FindKeyObjects ( P11SessionPtr_t pxSession,
-                               psa_key_id_t xKeyId,
+                               psa_key_id_t_ xKeyId,
                                CK_OBJECT_HANDLE xPalHandle,
                                CK_OBJECT_HANDLE_PTR pxObject,
                                CK_ULONG_PTR pulObjectCount )
